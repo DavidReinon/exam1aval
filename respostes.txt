@@ -4,3 +4,6 @@ cat alumnos.txt | grep SI -n | awk -F ":" '{print $1}' > si.txt
 
 5.
 mv si.txt si
+
+6.
+awk -F " " '{print $1 " " $2 "-" $5}' alumnos.txt | tail -n 47
