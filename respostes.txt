@@ -16,3 +16,6 @@ sed -i 's/Vicente/Pepe/g' alumnos.txt
 
 9.
 grep -v 2020 alumnos.txt
+
+10.
+grep ^J alumnos.txt | uniq
