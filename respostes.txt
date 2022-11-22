@@ -13,3 +13,6 @@ awk '{print $1 " " $2}' alumnos.txt | uniq | grep -c González
 
 8.
 sed -i 's/Vicente/Pepe/g' alumnos.txt
+
+9.
+grep -v 2020 alumnos.txt
