@@ -10,3 +10,6 @@ awk -F " " '{print $1 " " $2 "-" $5}' alumnos.txt | tail -n 47
 
 7.
 awk '{print $1 " " $2}' alumnos.txt | uniq | grep -c González
+
+8.
+sed -i 's/Vicente/Pepe/g' alumnos.txt
