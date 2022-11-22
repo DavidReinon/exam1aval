@@ -1,2 +1,6 @@
 3.
 cat alumnos.txt | grep SI -n | awk -F ":" '{print $1}' > si.txt
+
+
+5.
+mv si.txt si
